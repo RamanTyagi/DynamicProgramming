@@ -1,0 +1,30 @@
+
+"Those who cannot remember the past are condemned to repeat it!!!!!!"
+
+{ Recursion : Try all ways / figure out ways / Best ways , Find max or min in something!! }
+1. Try to represent the problem in terms of index.
+2. Do all the possible stuffs on that index acc. to the problem statement.
+3. Sum up all stuffs { count all ways }
+4. min/max of all stuffs { find min/max }
+
+DYNAMIC PROGRAMMING : 
+
+->Dynamic Programming can be described as storing answers to various sub-problems to be used later whenever required to solve the main problem.
+
+*The two common dynamic programming approaches are:
+
+->Memoization: Known as the “top-down” dynamic programming, usually the problem is solved in the direction of the main problem to the base cases.
+   * We tend to store the values of sub problems in some map/table }
+   * Jitne parameters change ho rhe honge us hisab se DP bnegi ex: agr 2 parameter change ho rhe h to 2D Dp , 3 kr rhe hai to 3D Dp.
+
+->Tabulation: Known as the “bottom-up ” dynamic programming, usually the problem is solved in the direction of solving the base cases to the main problem.
+  * Stack space ko htane ke liye tabulation use krte hai!
+  
+*Sbse phle recursive solution socho top-down , Agr overlapping subproblems hai to :
+*dp lga do optimise krne ke lie.
+*Recursive -> memoization { Use dp with inital values as -1 } [ Pick/not_pick concept or by looping around indexes!!! ] 
+*memoization -> tabulation { Phle bases cases bnao fir memoization wala code copy krdo loop lga kr }
+
+
+1. 1D DP:
+
