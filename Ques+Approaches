@@ -28,3 +28,12 @@ DYNAMIC PROGRAMMING :
 
 1. 1D DP:
 
+2. 2D DP:
+
+3. LCS Pattern Based:
+
+4. LIS Pattern Based:
+   1. https://leetcode.com/problems/longest-string-chain/ { top down approach mein index use kro rather than string --> Jisse memoization easy ho jae!!!!}
+5. Stocks problems:
+
+6. Miss.
