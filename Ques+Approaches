@@ -36,10 +36,21 @@ DYNAMIC PROGRAMMING :
    1. https://leetcode.com/problems/longest-string-chain/ { top down approach mein index use kro rather than string --> Jisse memoization easy ho jae!!!!}
 5. Stocks problems:
 
-6. DP on Squares :
+8. MCM DP | Partition DP
 
 
-7. DP on trees :
+9. DP on Squares :
+   Question :
+   1. Largest Rectangle in Histogram { Using next smaller heights through two stack and calculating reqd widht }
+      LINK : https://leetcode.com/problems/largest-rectangle-in-histogram/
+   2. Maximal Rectangle { Using Largest Rectangle in Histogram }
+      LINK : https://leetcode.com/problems/maximal-rectangle/
+   3. Maximal Square { Using dp to store areas at every cell when value at that cell is '1' }
+      LINK : https://leetcode.com/problems/maximal-square/
+   4. Count Square Submatrices with All Ones { Using the above approach and simultaneouly adding that len into the count }
+      LINK : https://leetcode.com/problems/count-square-submatrices-with-all-ones/
+
+10. DP on trees :
  * Identification:
   -> If there is case of traversing the tree for two times , one for finding what we are looking for and other one we require for finding current one.
   -> For ex : For finding diameter of binary tree , we have to also find height . 
