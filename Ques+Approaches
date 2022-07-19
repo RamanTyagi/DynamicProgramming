@@ -37,10 +37,22 @@ DYNAMIC PROGRAMMING :
 5. Stocks problems:
 
 8. MCM DP | Partition DP
-
+   *Identification :
+   1. Solve a problem in a pattern / particular order.
+   
+   *Steps :
+   1. Start solving the problem with the entire block/array.
+      -> take i as the starting point of the partition / sub-problem,
+      -> take j as the end point of the partition / sub-problem.
+   2. Try all the partition by running a loop for partitions.
+   3. Return the best possible 2 partitions.
+   
+   *Questions :
+   1. Matrix Chain Multiplication { using another variable for making partitions in the array , solve the partitions seperately and use them !!! }
+      LINK : https://www.codingninjas.com/codestudio/problems/matrix-chain-multiplication_975344
 
 9. DP on Squares :
-   Question :
+   *Questions :
    1. Largest Rectangle in Histogram { Using next smaller heights through two stack and calculating reqd widht }
       LINK : https://leetcode.com/problems/largest-rectangle-in-histogram/
    2. Maximal Rectangle { Using Largest Rectangle in Histogram }
