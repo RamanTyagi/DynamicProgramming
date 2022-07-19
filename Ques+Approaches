@@ -50,6 +50,8 @@ DYNAMIC PROGRAMMING :
    *Questions :
    1. Matrix Chain Multiplication { using another variable for making partitions in the array , solve the partitions seperately and use them !!! }
       LINK : https://www.codingninjas.com/codestudio/problems/matrix-chain-multiplication_975344
+   2. Minimum Cost to Cut a Stick { sort all the cuts given, initial cur 0 ka daalo , final cut len ke equal ka daldo -> then partition approach }
+      LINK : https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
 
 9. DP on Squares :
    *Questions :
