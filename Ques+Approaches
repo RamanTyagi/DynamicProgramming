@@ -32,9 +32,24 @@ DYNAMIC PROGRAMMING :
 
 3. LCS Pattern Based:
 
-4. LIS Pattern Based:
-   1. https://leetcode.com/problems/longest-string-chain/ { top down approach mein index use kro rather than string --> Jisse memoization easy ho jae!!!!}
-5. Stocks problems:
+
+4. Stocks problems:
+
+5. LIS Pattern Based:
+   1. LIS base Question { Most_Imp } { Used in many questions } { Check for previous elements that are smaller than curr element , these are in order !}
+      LINK : https://leetcode.com/problems/longest-increasing-subsequence/
+      -> For printing LIS take a hash array too , to store indexes of the involved elements in the lis.
+   2. Largest Divisible Subset { Take hash array and check for divisibility and follow LIS pattern }
+      LINK : https://leetcode.com/problems/largest-divisible-subset/
+   3. Longest String Chain { Same LIS pattern , just take care of predecessor and successor string }
+      LINK : https://leetcode.com/problems/longest-string-chain/
+   4. Longest Bitonic sequence 
+      LINK : https://www.codingninjas.com/codestudio/problems/longest-bitonic-sequence_1062688
+    
+    
+   
+  
+
 
 8. MCM DP | Partition DP
    *Identification :
