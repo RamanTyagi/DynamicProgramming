@@ -52,6 +52,15 @@ DYNAMIC PROGRAMMING :
       LINK : https://www.codingninjas.com/codestudio/problems/matrix-chain-multiplication_975344
    2. Minimum Cost to Cut a Stick { sort all the cuts given, initial cur 0 ka daalo , final cut len ke equal ka daldo -> then partition approach }
       LINK : https://leetcode.com/problems/minimum-cost-to-cut-a-stick/
+   3. Burst Balloons { For applying DP , we should have two independent subproblems from where we solve a particular problem }
+       { Think to approach this question from reverse side !!! }
+      LINK : https://leetcode.com/problems/burst-balloons/
+   4. Palindrome Partitioning – II { Problem of front partition , Think of taking prefix seperately and solving the remaining question !}
+      LINK : https://leetcode.com/problems/palindrome-partitioning-ii/
+   5. Partition Array for Maximum Sum { Problem of front partition , taking the required array sep and solving the rem que !! }
+      LINK : https://leetcode.com/problems/partition-array-for-maximum-sum/
+   6. Take away the bottle { Check if adjacent bottles are equal or not , Solve que on this basis and return the minimum steps !}
+      LINK : https://www.codingninjas.com/codestudio/problems/take-away-the-bottle_2179745?leftPanelTab=0
 
 9. DP on Squares :
    *Questions :
