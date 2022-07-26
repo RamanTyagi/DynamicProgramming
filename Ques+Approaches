@@ -34,6 +34,9 @@ DYNAMIC PROGRAMMING :
 
 
 4. Stocks problems:
+   1. Best Time to Buy and Sell Stock {Find the minimum price to buy stock and try to sell it at every profitable day possible !!} 
+      LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+   2.   
 
 5. LIS Pattern Based:
    1. LIS base Question { Most_Imp } { Used in many questions } { Check for previous elements that are smaller than curr element , these are in order !}
@@ -43,13 +46,11 @@ DYNAMIC PROGRAMMING :
       LINK : https://leetcode.com/problems/largest-divisible-subset/
    3. Longest String Chain { Same LIS pattern , just take care of predecessor and successor string }
       LINK : https://leetcode.com/problems/longest-string-chain/
-   4. Longest Bitonic sequence 
+   4. Longest Bitonic sequence { do lis from left->right , store in dp1 & do lis from right->left , store in dp2 -> Return max(dp1[i],dp2[i]) }
       LINK : https://www.codingninjas.com/codestudio/problems/longest-bitonic-sequence_1062688
+   5. Number of Longest Increasing Subsequences { Do lis and simultaneously count the number of lis made till 'i' using all prev made lis's }
+      LINK : https://leetcode.com/problems/number-of-longest-increasing-subsequence/
     
-    
-   
-  
-
 
 8. MCM DP | Partition DP
    *Identification :
