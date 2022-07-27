@@ -36,7 +36,16 @@ DYNAMIC PROGRAMMING :
 4. Stocks problems:
    1. Best Time to Buy and Sell Stock {Find the minimum price to buy stock and try to sell it at every profitable day possible !!} 
       LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-   2.   
+   2. Best Time to Buy and Sell Stock II ( Infinite Transactions ) { take isBuy = 1 , to tell you can buy and 0 to tell you can sell }
+      LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+   3. Best Time to Buy and Sell Stock III ( Atmost 2 Transactions ) { Total 4 transactions can happen , Add a state for this too ! }
+      LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+   4. Best Time to Buy and Sell Stock IV ( Atmost K transcations ) { Total 2k transactions can happen , Add a state for this too ! }
+      LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+   5. Best Time to Buy and Sell Stock with Cooldown { Make isBuy = 2 , whenever you sell the stock to apply cooldown of 1 day }
+      LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+   6. Best Time to Buy and Sell Stock with Transaction Fee { substract fee , whenver selling the stock ! }
+      LINK : https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 
 5. LIS Pattern Based:
    1. LIS base Question { Most_Imp } { Used in many questions } { Check for previous elements that are smaller than curr element , these are in order !}
