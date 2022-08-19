@@ -30,8 +30,26 @@ DYNAMIC PROGRAMMING :
 
 2. 2D DP:
 
-3. LCS Pattern Based:
-
+3. LCS Pattern Based / DP on strings:
+   1. Longest Common Subsequence { If string matches take 1+helper(i-1,j-1) else,we have to make choice between the string portion -> max((i-1,j),(i,j-1))
+      LINK : https://leetcode.com/problems/longest-common-subsequence/
+   2. Print Longest Common Subsequence { Tabulation wale method se lcs nikalo then make the string by traversing on the table }
+   3. Longest Common Substring { If string matches do 1+dp[i-1][j-1] otherwise we put dp[i][j] = 0 }
+      LINK : https://www.codingninjas.com/codestudio/problems/longest-common-substring_1235207
+   4. Longest Palindromic Subsequence 
+      APPROACH1 : reverse the string and take lcs on string and reversed string!
+      APPROACH2 : GAP STRATEGY { LINK : https://leetcode.com/submissions/detail/561650327/ } 
+      LINK : https://leetcode.com/problems/longest-palindromic-subsequence/
+   5. Minimum insertions to make string palindrome
+      APPROACH1 : Take lcs with the reversed string and the given string , return n-lcs_length
+      APPROACH2 : If(s[i]==s[j]) 1+helper(i+1,j-1) {No Insertion reqd) else return min(helper(i,j-1),helper(i+1,j)) { match ith character or jth character }
+      LINK : https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/
+   6. Minimum Insertions/Deletions to Convert String 
+      APPROACH1: if(s[i]==p[j]) helper(i-1,j-1) {KUCH NI KRNA} else return 1+min(insertion,deletion) { String ko dono treeke se bnake dekhlo!!}
+      APPROACH2 : take lcs of s and p , return len(s)+len(p)-2*lcs { common portion ko intact rkhlia! }
+      LINK : https://www.codingninjas.com/codestudio/problems/can-you-make_4244510
+   7. Shortest Common Supersequence 
+      LINK: https://leetcode.com/problems/shortest-common-supersequence/
 
 4. Stocks problems:
    1. Best Time to Buy and Sell Stock {Find the minimum price to buy stock and try to sell it at every profitable day possible !!} 
