@@ -49,7 +49,11 @@ DYNAMIC PROGRAMMING :
       APPROACH2 : take lcs of s and p , return len(s)+len(p)-2*lcs { common portion ko intact rkhlia! }
       LINK : https://www.codingninjas.com/codestudio/problems/can-you-make_4244510
    7. Shortest Common Supersequence 
+      APPROACH : take lcs of both strings and find the required common string , this part will be in the supersequence , for the remaining part 
+      traverse all the three string str1,str2,req string and add all those characters which are extra { other than req(lcs) string } !!!
       LINK: https://leetcode.com/problems/shortest-common-supersequence/
+      STRING MATCHING
+   8.    
 
 4. Stocks problems:
    1. Best Time to Buy and Sell Stock {Find the minimum price to buy stock and try to sell it at every profitable day possible !!} 
