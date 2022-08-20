@@ -62,7 +62,9 @@ DYNAMIC PROGRAMMING :
       APPROACH : Do the recursion on the indexes , we have three choices to make 1.insertion 2.deletion 3.replace -> return the minimum of the choices!!
       LINK : https://leetcode.com/problems/edit-distance/
    10. Wildcard Matching
-       APPRROACH : 
+       APPRROACH : If characters are equal or p[j]=='?' then do i-1 & j-1 , else if p[j] == '*' , this can also account for empty 
+                   sequence as given in question so we have 2 choices, one to match the sequence and other to don't match and 
+                   taking it as empty sequence!
        LINK : https://leetcode.com/problems/wildcard-matching/
 
 4. Stocks problems:
