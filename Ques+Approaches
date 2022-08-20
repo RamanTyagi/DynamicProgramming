@@ -49,11 +49,21 @@ DYNAMIC PROGRAMMING :
       APPROACH2 : take lcs of s and p , return len(s)+len(p)-2*lcs { common portion ko intact rkhlia! }
       LINK : https://www.codingninjas.com/codestudio/problems/can-you-make_4244510
    7. Shortest Common Supersequence 
-      APPROACH : take lcs of both strings and find the required common string , this part will be in the supersequence , for the remaining part 
+      APPROACH1 : take lcs of both strings and find the required common string , this part will be in the supersequence , for the remaining part 
       traverse all the three string str1,str2,req string and add all those characters which are extra { other than req(lcs) string } !!!
+      APPROACH2 : Print lcs wale mein kch changes krne pdege , equal aa rhe hai characters to take character one time , otherwise take the character
+                  that is being neglected in recursion.
       LINK: https://leetcode.com/problems/shortest-common-supersequence/
       STRING MATCHING
-   8.    
+   8. Distinct Subsequences (HARD) (REQ REVISION)
+      APPROACH : Think what to do when characters matches , what to do and what to do if not matches ->Apply recursion on indexes -> DP!!!!
+      LINK : https://leetcode.com/problems/distinct-subsequences/
+   9. Edit Distance
+      APPROACH : Do the recursion on the indexes , we have three choices to make 1.insertion 2.deletion 3.replace -> return the minimum of the choices!!
+      LINK : https://leetcode.com/problems/edit-distance/
+   10. Wildcard Matching
+       APPRROACH : 
+       LINK : https://leetcode.com/problems/wildcard-matching/
 
 4. Stocks problems:
    1. Best Time to Buy and Sell Stock {Find the minimum price to buy stock and try to sell it at every profitable day possible !!} 
